@@ -1,0 +1,39 @@
+{
+  "name": "hello-umesh",
+  "version": "1.0.0",
+  "description": "Simple Hello World Node Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hello world"
+  ],
+  "author": "Umesh Ghimire <me.umeshuser@gmail.com>",
+  "engines": {
+    "node": ">4.0"
+  },
+  "homepage": "http://github.com/ughimire/hello-umesh",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/ughimire/hello-umesh/LICENSE"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Umesh Ghimire",
+      "email": "me.umeshuser@gmail.com",
+      "url": "https://github.com/ughimire"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ughimire/hello-umesh.git"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.0.5"
+  }
+}
